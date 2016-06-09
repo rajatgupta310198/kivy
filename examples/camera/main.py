@@ -23,10 +23,10 @@ BoxLayout:
     Camera:
         id: camera
         resolution: (640, 480)
-        play: False
+        play: True
     ToggleButton:
         text: 'Play'
-        on_press: camera.play = not camera.play
+        on_press: camera.play = camera.play
         size_hint_y: None
         height: '48dp'
 '''
